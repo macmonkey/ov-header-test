@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="1024px" height="80px" viewBox="0 0 1024 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="1024px" height="146px" viewBox="0 0 1024 146" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 60.1 (88133) - https://sketch.com -->
     <title>Rectangle</title>
     <desc>Created with Sketch.</desc>
     <g id="Home" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Desktop" transform="translate(0.000000, -648.000000)" fill="#FFFFFF">
-            <polygon id="Rectangle" points="0 682 1024 648 1024 728 0 728"></polygon>
+        <g id="Desktop" transform="translate(0.000000, -557.000000)" fill="#FFFFFF">
+            <polygon id="Rectangle" points="-5.44436332 647 1024 557.733061 1024 703 2.93098879e-14 703"></polygon>
         </g>
     </g>
 </svg>

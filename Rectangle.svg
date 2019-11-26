@@ -1,17 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="1024px" height="648px" viewBox="0 0 1024 648" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="1024px" height="112px" viewBox="0 0 1024 112" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 60.1 (88133) - https://sketch.com -->
     <title>Rectangle</title>
     <desc>Created with Sketch.</desc>
-    <defs>
-        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
-            <stop stop-color="#0CADF4" offset="0%"></stop>
-            <stop stop-color="#0575E5" offset="100%"></stop>
-        </linearGradient>
-    </defs>
     <g id="Home" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Desktop" fill="url(#linearGradient-1)">
-            <polygon id="Rectangle" points="6.92779167e-14 0 1024 0 1024 550.920295 0 648"></polygon>
+        <g id="Desktop" transform="translate(0.000000, -591.000000)" fill="#FFFFFF">
+            <polygon id="Rectangle" points="0 672.806805 1024 591 1024 703 0 703"></polygon>
         </g>
     </g>
 </svg>

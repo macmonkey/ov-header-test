@@ -1,7 +1,7 @@
 html, body {
   margin: 0;
   padding: 0;
-}
+  font-family: 'Roboto'; }
 
 nav {
   height: 80px;
@@ -9,30 +9,91 @@ nav {
   background-color: #ffffff;
   box-shadow: 0 2px 45px 2px rgba(0, 0, 0, 0.35);
   position: relative;
-}
+  z-index: 2; }
 
 header {
   position: relative;
   min-height: 500px;
   background-image: linear-gradient(to bottom, #0cadf4, #0575e5);
-}
-header h1 {
-  text-shadow: 0 2px 15px rgba(0, 0, 0, 0.5);
-  font-family: Roboto;
-  font-size: 60px;
-  font-weight: 900;
-  font-stretch: normal;
-  font-style: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  color: #ffffff;
-  padding: 0;
-  margin: 0;
-}
-header img.triangle {
-  width: 100%;
-  position: absolute;
-  bottom: -2px;
-}
+  z-index: 1;
+  overflow: hidden;
+  font-size: 16px; }
+  @media (min-width: 576px) {
+    header {
+      font-size: 20px; } }
+  @media (min-width: 768px) {
+    header {
+      font-size: 24px; } }
+  @media (min-width: 992px) {
+    header {
+      font-size: 26px; } }
+  @media (min-width: 1200px) {
+    header {
+      font-size: 30px; } }
+  header h1 {
+    text-shadow: 0 2px 15px rgba(0, 0, 0, 0.5);
+    font-family: Roboto;
+    width: 80%;
+    font-size: 3em;
+    font-weight: 700;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+    padding: 0;
+    margin: 0; }
+  header img.triangle {
+    width: 102%;
+    position: absolute;
+    bottom: -2px;
+    left: -1%;
+    line-height: 0;
+    padding: 0;
+    margin: 0; }
+    header img.triangle.dark {
+      bottom: 2%; }
+  header .building {
+    position: absolute;
+    right: 0;
+    z-index: 3;
+    bottom: 5%;
+    height: 50%; }
+    header .building img {
+      position: relative;
+      height: 100%;
+      width: auto; }
+  header .content {
+    position: relative;
+    padding-top: 10vw;
+    padding-left: 10%;
+    font-size: 1em;
+    z-index: 4; }
+    header .content ul {
+      padding: 0;
+      margin: 0; }
+      header .content ul li {
+        list-style: none;
+        padding: 0;
+        margin: 0; }
+    header .content .items {
+      padding-top: 10%;
+      padding-bottom: 30%; }
+      header .content .items .item {
+        display: flex;
+        align-items: center;
+        padding-bottom: 1em; }
+        header .content .items .item .dot {
+          height: 50px;
+          width: 50px;
+          background-color: #ffffff;
+          border-radius: 50%;
+          box-shadow: 0 2px 15px 0 rgba(0, 0, 0, 0.5); }
+        header .content .items .item .caption {
+          color: #ffffff;
+          font-family: 'Roboto';
+          font-weight: 300;
+          padding-left: 1em;
+          text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); }
 
 /*# sourceMappingURL=header-styles.css.map */
