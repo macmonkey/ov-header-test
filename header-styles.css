@@ -43,22 +43,35 @@ header {
     color: #ffffff;
     padding: 0;
     margin: 0; }
-  header img.triangle {
-    width: 102%;
-    position: absolute;
-    bottom: -2px;
-    left: -1%;
-    line-height: 0;
-    padding: 0;
-    margin: 0; }
-    header img.triangle.dark {
-      bottom: 2%; }
+  header .shapes {
+    overflow: hidden; }
+    header .shapes img.triangle {
+      width: 102%;
+      position: absolute;
+      bottom: -2px;
+      left: -1%;
+      line-height: 0;
+      padding: 0;
+      margin: 0; }
+      header .shapes img.triangle.dark {
+        bottom: 2%; }
   header .building {
     position: absolute;
     right: 0;
     z-index: 3;
     bottom: 5%;
-    height: 50%; }
+    height: 40%; }
+    @media (min-width: 768px) {
+      header .building {
+        height: 60%; } }
+    @media (min-width: 992px) {
+      header .building {
+        height: 60%;
+        right: -10%; } }
+    @media (min-width: 1200px) {
+      header .building {
+        height: 60%;
+        right: -5%; } }
     header .building img {
       position: relative;
       height: 100%;
@@ -85,7 +98,7 @@ header {
       flex-wrap: wrap; }
       header .content .items li {
         width: 100%; }
-        @media (min-width: 768px) {
+        @media (min-width: 992px) {
           header .content .items li {
             width: 50%; } }
       header .content .items .item {
@@ -93,11 +106,23 @@ header {
         align-items: center;
         padding-bottom: 1em; }
         header .content .items .item .dot {
-          height: 50px;
-          width: 50px;
+          height: 32px;
+          width: 32px;
           background-color: #ffffff;
           border-radius: 50%;
           box-shadow: 0 2px 15px 0 rgba(0, 0, 0, 0.5); }
+          @media (min-width: 768px) {
+            header .content .items .item .dot {
+              height: 36px;
+              width: 36px; } }
+          @media (min-width: 992px) {
+            header .content .items .item .dot {
+              height: 42px;
+              width: 42px; } }
+          @media (min-width: 1200px) {
+            header .content .items .item .dot {
+              height: 50px;
+              width: 50px; } }
         header .content .items .item .caption {
           color: #ffffff;
           font-family: 'Roboto';
@@ -109,7 +134,7 @@ header {
   position: relative;
   width: 100%;
   height: 100%;
-  background-size: 60%;
+  background-size: 65%;
   background-repeat: no-repeat;
   background-position: center; }
   .icon.verkauf {
