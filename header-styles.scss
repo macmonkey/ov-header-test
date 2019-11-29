@@ -38,7 +38,7 @@ header {
   }
 
   @include xl {
-    font-size: 30px;
+    font-size: 28px;
   }
 
 
@@ -59,41 +59,44 @@ header {
 
   .shapes {
     overflow: hidden;
+    width: 100%;
 
     img.triangle {
-      width: 102%;
+      width: 100%;
       position: absolute;
       bottom: -2px;
-      left: -1%;
       line-height: 0;
       padding: 0;
       margin: 0;
+      transform: scaleX(1.1);
 
       &.dark {
         bottom: 2%;
+      }
+
+      &.glow {
+
       }
     }
   }
 
   .building {
     position: absolute;
-    right: 0;
+    right: -15vw;
     z-index: 3;
-    bottom: 5%;
-    height: 40%;
+    bottom: 5vw;
+    height: 50%;
 
     @include md {
       height: 60%;
+      right: -25vw;
     }
 
     @include lg {
-      height: 60%;
-      right: -10%;
     }
 
     @include xl {
-      height: 60%;
-      right: -5%;
+      height: 80%;
     }
 
 
@@ -107,7 +110,7 @@ header {
 
   .content {
     position: relative;
-    padding-top: 10vw;
+    padding-top: 5vw;
     padding-left: 10%;
     padding-right: 10%;
     font-size: 1em;
@@ -125,8 +128,8 @@ header {
     }
 
     .items {
-      padding-top: 10%;
-      padding-bottom: 30%;
+      padding-top: 5vw;
+      padding-bottom: 20vw;
 
 
       width: 100%;
@@ -135,7 +138,7 @@ header {
 
       li {
         width: 100%;
-
+        margin: 0.3em 0 0.3em;
         @include lg {
           width: 50%;
         }
@@ -144,8 +147,6 @@ header {
       .item {
         display: flex;
         align-items: center;
-        padding-bottom: 1em;
-
 
         .dot {
           height: 32px;
@@ -169,7 +170,6 @@ header {
             height: 50px;
             width: 50px;
           }
-
 
 
         }
